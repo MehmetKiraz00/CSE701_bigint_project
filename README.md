@@ -6,7 +6,7 @@
 - **Course:** CSE701: Foundations of Modern Scientific Programming
 - **Project:** Arbitrary Precision Signed Integer
 
-## BigInteger / Arbitrary Precision Signed Integer
+## Arbitrary Precision Signed Integer
 
 **bigInt** in this project provides operation overloads for handling very large signed integers, exceeding the limitations of C++ primitive types (e.g., 2^64-1 for unsigned), enabling support for arbitrary-precision computations.
 
