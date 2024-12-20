@@ -16,7 +16,7 @@ The main idea comes down to storing the number as a string type in the bigInt ob
 
 ## Overloaded Operators
 
-This C++20 implementation multiple operator overloads to execute operations on bigInt objects, as outlined below:
+This C++23 implementation multiple operator overloads to execute operations on bigInt objects, as outlined below:
 
 | Operator | Description               | Return Type | Example     |
 | -------- | ------------------------- | ----------- | ----------- |
