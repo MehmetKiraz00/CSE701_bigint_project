@@ -15,6 +15,7 @@
 #include <sstream>
 #include <fstream>
 #include <cmath>
+#include <vector>
 #include "bigint.hpp"
 using namespace std;
 
