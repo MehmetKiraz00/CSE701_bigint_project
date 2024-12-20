@@ -397,4 +397,4 @@ Check -94 not equal  to 4324 ==> 1
 
 ---
 
-**Copyright (c) Mehmet Kiraz** All rights reserved. Licensed under the MIT license.
+**Copyright (c) Mehmet Kiraz** All rights reserved. 
