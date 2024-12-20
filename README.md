@@ -61,6 +61,52 @@ This C++20 implementation multiple operator overloads to execute operations on b
    ```
 4. The output will be shown on the terminal
 
+## Directory Structure
+All the codes have been tested with the following warning tags and none appeared while testing. 
+It's all up to c++23 standart
+
+###tasks.json
+```
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: clang build active file",
+      "command": "/opt/homebrew/opt/llvm/bin/clang++",
+      "args": [
+        "-fcolor-diagnostics",
+        "-fansi-escape-codes",
+        "-ggdb3",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "-Wall",
+        "-Wextra",
+        "-Wconversion",
+        "-Wsign-conversion",
+        "-Wshadow",
+        "-Wpedantic",
+        "-std=c++23",
+        "-stdlib=libc++",
+        "-L/opt/homebrew/opt/llvm/lib",
+        "-I/opt/homebrew/opt/llvm/include"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: /opt/homebrew/opt/llvm/bin/clang++"
+    }
+  ]
+}
+
+```
+
 ### Input used on the main function:
 
 ```
